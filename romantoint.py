@@ -16,7 +16,8 @@ def romanToInt(s: str) -> int:
 
     return n
 
-print(romanToInt('IV'))        # 4
-print(romanToInt('MCMXCIV'))   # 1994
-print(romanToInt('MMMDCCCXC')) # 3890
-print(romanToInt('XLIX'))      # 49
+if __name__ == "__main__":
+    print(romanToInt('IV'))        # 4
+    print(romanToInt('MCMXCIV'))   # 1994
+    print(romanToInt('MMMDCCCXC')) # 3890
+    print(romanToInt('XLIX'))      # 49
